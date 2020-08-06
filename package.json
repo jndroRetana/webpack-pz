@@ -1,0 +1,17 @@
+{
+  "name": "webpack-pz",
+  "version": "1.0.0",
+  "description": "Configura con Webpack desde cero el entorno de desarrollo y producción de los proyectos.",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "build:external": "webpack --config ./external/webpack.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  }
+}
